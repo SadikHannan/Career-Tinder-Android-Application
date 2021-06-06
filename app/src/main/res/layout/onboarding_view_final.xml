@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gplus_color_3">
+
+    <ImageView
+        android:id="@+id/iv_applications"
+        android:src="@drawable/time"
+        android:layout_above="@id/tv_applications"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_applications"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="Click next to create a profile or exit to come back later when you have the time."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

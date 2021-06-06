@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Career Tinder</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Register</string>
+    <string name="createAccountBtn">Create My Account!</string>
+    <string name="joinCareerTinder">JOIN CAREER TINDER NOW!</string>
+    <string name="fullNameText">Full Name</string>
+    <string name="emailAddressText">Email Address</string>
+    <string name="passwordText">Password</string>
+    <string name="confirmPasswordText">Confirm Password</string>
+    <string name="userTypeText">I am:</string>
+    <string name="studentText">a Job Seeker</string>
+    <string name="companyText">an Employer</string>
+    <string name="addNewJobOpeningText">Add a job opening</string>
+    <string name="updateJobOpening">Update a job opening</string>
+    <string name="createJobOpeningText">Create Job Opening!</string>
+    <string name="jobTitleText">Job Title</string>
+    <string name="desiredSkillsText">Desired Skills</string>
+    <string name="skillText">Skill</string>
+    <string name="desiredQualificationText">Desired Qualification</string>
+    <string name="desiredWorkExText">Desired Work Experience (in Months)</string>
+    <string name="placeOfWorkText">Place of Work</string>
+    <string name="jobDescriptionText">Job Description</string>
+    <string name="nameOfYourCompanyText">Name of your Company</string>
+    <string name="nameOfCompanyText">Name of  Company</string>
+    <string name="desiredCandidateText">Desired Candidate Profile</string>
+    <string name="desiredLanguagesText">Desired Language Skills</string>
+    <string name="languageText">Language</string>
+    <string name="jobOpenings">JOB OPENINGS</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="contactDetailsText">Contact Details</string>
+    <string name="contactPhoneText">Contact Phone Number</string>
+    <string name="contactEmailText">Contact Email</string>
+    <string name="updateJobOpeningText">Update Job Opening</string>
+    <string name="viewMatchesText">View Matches</string>
+    <string name="emailExampleText">companyname@example.com</string>
+
+    <string name="nav_header_title">FirstName LastName</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_job_search">Job Search</string>
+    <string name="menu_job_list">Job List</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+    <string name="jobTypeText">Job Type</string>
+
+    <string-array name="city_array">
+        <item>[SELECT PLACE OF WORK]</item>
+        <item>Nuremberg</item>
+        <item>Furth</item>
+        <item>Erlangen</item>
+        <item>Forcheim</item>
+        <item>Bamberg</item>
+        <item>Bayreuth</item>
+        <item>Hirschaid</item>
+        <item>Wurzburg</item>
+    </string-array>
+
+    <string-array name="city_array_candidate">
+        <item>[SELECT YOUR CITY]</item>
+        <item>Nuremberg</item>
+        <item>Furth</item>
+        <item>Erlangen</item>
+        <item>Forcheim</item>
+        <item>Bamberg</item>
+        <item>Bayreuth</item>
+        <item>Hirschaid</item>
+        <item>Wurzburg</item>
+    </string-array>
+
+
+    <string-array name="language_array_1">
+        <item>[SELECT LANGUAGE]</item>
+        <item>Deutsch</item>
+        <item>Francais</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Português</item>
+        <item>Polski</item>
+        <item>官话</item>
+    </string-array>
+
+    <string-array name="language_array_2">
+        <item>[SELECT LANGUAGE]</item>
+        <item>Deutsch</item>
+        <item>Francais</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Português</item>
+        <item>Polski</item>
+        <item>官话</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="job_type">
+        <item>[WHICH JOB DO YOU PREFER]</item>
+        <item>Internship</item>
+        <item>Mandatory Internhip</item>
+        <item>Werkstudent</item>
+    </string-array>
+
+    <string-array name="opening_type">
+        <item>[SELECT JOB TYPE]</item>
+        <item>Internship</item>
+        <item>Mandatory Internhip</item>
+        <item>Werkstudent</item>
+    </string-array>
+</resources>

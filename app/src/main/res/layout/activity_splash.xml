@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_above="@+id/RLLoginForm">
+
+        <ImageView
+            android:id="@+id/IVAppIcon"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/career_tinder_logo" />
+
+        <TextView
+            android:id="@+id/TVAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/IVAppIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="Swipe 2 Job"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TVSW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="17dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Software\nGiants"/>
+
+</RelativeLayout>

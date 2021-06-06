@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:background="@color/colorCardBackgrounds"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/IVJobOpening"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/TVJobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/IVJobOpening"
+            android:textColor="@android:color/black"
+            android:paddingLeft="8dp"
+            android:text="@string/jobTitleText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TVPlaceOfWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TVJobTitle"
+            android:textColor="@android:color/black"
+            android:layout_toEndOf="@+id/IVJobOpening"
+            android:drawableStart="@drawable/baseline_place_black_24"
+            android:drawablePadding="5dp"
+            android:paddingLeft="4dp"
+            android:text="@string/placeOfWorkText" />
+
+        <TextView
+            android:id="@+id/TVPreferredSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TVPlaceOfWork"
+            android:drawablePadding="5dp"
+            android:layout_toEndOf="@id/IVJobOpening"
+            android:textColor="@android:color/black"
+            android:drawableStart="@drawable/baseline_whatshot_black_24"
+            android:paddingLeft="4dp"
+            android:text="Preferred Skill" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

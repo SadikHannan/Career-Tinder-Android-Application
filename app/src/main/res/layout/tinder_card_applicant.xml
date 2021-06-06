@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:background="@color/colorCardBackgrounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_above="@id/LLData"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/LLData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorCardBackgrounds"
+                android:layout_alignParentBottom="true"
+                android:gravity="center|left"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/TVName"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:text="Name"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/TVJobTitle"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:text="JobTitle"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/TVCity"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:text="City"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/TVQualification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:text="University"/>
+                <TextView
+                    android:id="@+id/TVWorkEx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:text="Work Ex"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:text="Skills:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/TVSkill1"
+                    android:text="Skill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/TVSkill2"
+                    android:text="Skill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/TVSkill3"
+                    android:text="Skill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/black"/>
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:text="Languages:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/TVLang1"
+                    android:text="Language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/TVLang2"
+                    android:text="Language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>
